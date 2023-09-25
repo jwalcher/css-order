@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <Menu items={["one", "two"]} />
       <h1 className={"titleGlobal" + " " + cssmodule["titleLocal"]}>Home page</h1>
-      <div>{`Buffalo buffalo `.repeat(100000)}</div>
+      <div>{`Homepage `.repeat(100000)}</div>
     </>
   );
 }

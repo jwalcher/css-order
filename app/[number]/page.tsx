@@ -11,7 +11,7 @@ export default function Page({ params }: { params: { number: string } }) {
     <>
       <Menu items={[`${params.number == "one" ? "two" : "one"}`]} />
       <h1 className={"titleGlobal" + " " + cssmodule["titleLocal"]}>Page {params.number}</h1>
-      <div>{`Chicken ${params.number} `.repeat(100000)}</div>
+      <div>{`Page ${params.number} `.repeat(100000)}</div>
     </>
   );
 }
