@@ -1,0 +1,12 @@
+
+.titleLocal {
+    background-color: pink;
+    width: 200px
+}
+
+.titleLocal::after {
+    content: "local CSS";
+    position: absolute;
+    left: 220px;
+    font-size: 16px
+}

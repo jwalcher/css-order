@@ -1,0 +1,12 @@
+
+.titleGlobal {
+    background-color: blue;
+    width: 200px
+}
+
+.titleGlobal::after {
+    content: "global CSS";
+    position: absolute;
+    left: 220px;
+    font-size: 16px
+}
